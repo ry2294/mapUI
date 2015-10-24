@@ -5,8 +5,8 @@ var path    = require("path");
 var AWS = require('aws-sdk');
 
 AWS.config.update({
-    accessKeyId: 'AKIAIVVCT34IQL2IWDKA', 
-    secretAccessKey: '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'});
+    accessKeyId: 'AKIAJMEQ34ZJZFHTL5VA', 
+    secretAccessKey: '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'});
 
 AWS.config.update({region: 'us-west-2'});
 
