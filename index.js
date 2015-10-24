@@ -21,7 +21,7 @@ dynamodb.scan(getPlaceInfoParams, function(error, data) {
     if (error)
         console.log(JSON.stringify(error));
     else
-        console.log(JSON.stringify(data));
+        console.log(JSON.stringify(data.Count));
 });
 
 
