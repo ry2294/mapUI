@@ -11,18 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-    function initialize() {
-          var mapCanvas = document.getElementById('map');
-          var mapOptions = {
-            center: new google.maps.LatLng(44.5403, -78.5463),
-            zoom: 3,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          }
-          var map = new google.maps.Map(mapCanvas, mapOptions);
-      };
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    <script src="/home/ec2-user/mapUI/googleMapAPI.js"></script>
   </head>
   <body>
     <div style="margin:50px;">
